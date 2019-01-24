@@ -6,18 +6,18 @@ This practical, hands-on [1-credit course](http://sticsumd.com/) provides studen
 
 
 ## Course Details
-- **Course**: [CMSC389R](https://testudo.umd.edu)
+- **Course**: [CMSC389R](https://app.testudo.umd.edu/soc/search?courseId=cmsc389r&sectionId=&termId=201901&_openSectionsOnly=on&creditCompare=&credits=&courseLevelFilter=ALL&instructor=&_facetoface=on&_blended=on&_online=on&courseStartCompare=&courseStartHour=&courseStartMin=&courseStartAM=&courseEndHour=&courseEndMin=&courseEndAM=&teachingCenter=ALL&_classDay1=on&_classDay2=on&_classDay3=on&_classDay4=on&_classDay5=on)
 - **Prerequisites**: C- or better in CMSC216 and CMSC250
 - **Credits**: 1
-- **Seats**: 30, 2 sections
-- **Lecture Time**: Fridays, 2-2:50 PM (0101) and 3-3:50 PM (0201)
-- **Location**: CSI 2107
+- **Seats**: 60, (30/section)
+- **Lecture Time**: Fridays, 1-1:50 PM (0101) and 2-2:50 PM (0201)
+- **Location**: CSI 2118
 - **Semester**: Spring 2019
 - **Textbook**: None
-- **Course Facilitators**: [Michael Reininger](https://www.github.com/1umpus), [Wesley Weidenhamer](https://github.com/wesley27) and [Joshua Fleming](https://github.com/jsfleming)
+- **Course Facilitators**: [Michael Reininger](https://www.github.com/1umpus), [Wesley Weidenhamer](https://github.com/wesley27), [Joshua Fleming](https://github.com/jsfleming), and [Michael Bailey](https://github.com/Miskerest)
 - **Faculty Advisor**: [Dave Levin](http://www.cs.umd.edu/~dml/)
-- **Syllabus Last Updated**: August 30, 2018
-- **Previous Offering**: [Spring 2018](https://github.com/UMD-CS-STICs/389Rspring18)
+- **Syllabus Last Updated**: January 23, 2019
+- **Previous Offering**: [Spring 2018](https://github.com/UMD-CS-STICs/389Rspring18), [Fall 2018](https://github.com/UMD-CS-STICs/389Rfall18)
 
 ## Topics Covered
 - Security research ethics
@@ -57,7 +57,7 @@ This practical, hands-on [1-credit course](http://sticsumd.com/) provides studen
     - Password cracking
 - Capture the Flag (CTF)
     - Jeopardy vs Attack-Defense
-    - Write-ups
+    - Write-ups and Proof-of-Concept (PoC)
 
 ## Grading
 Assignments should be submitted through your personal fork of our class repository. Instructions on how to set this up and do it can be found [here](HW_Submit_Instructions.md).
@@ -70,14 +70,13 @@ Your final course grade will be determined according to the following percentage
 
 | Percentage | Title | Description |
 | ------------- | -----|-------- |
-| 45% | Write-ups  | Weekly individual write-ups (250-500 words) that summarize and explain your solutions to the assigned CTF challenges or concepts covered in lecture. |
+| 50% | Write-ups  | Weekly individual write-ups (250-500 words) that summarize and explain your solutions to the assigned CTF challenges or concepts covered in lecture. |
 | 20% | Midterm | Examination on topics covered until Forensics II. |
-| 25% | Final Hack | Demonstrate mastery of all topics learned and apply knowledge to change your grade on the class's private grade server. The grade earned will be determined by levels unlocked in the grade server and will be applied to your official final grade. |
-| 10% | Competitions | Certain assignments throughout the semester will be competitive in nature. The final 10% of your grade will be determined by your performance on challenges in a competitive setting.
+| 30% | Final Hack | Demonstrate mastery of all topics learned and apply knowledge to change your grade on the class's private grade server. The grade earned will be determined by levels unlocked in the grade server and will be applied to your official final grade. 
 
 Any request for reconsideration of any grading on coursework must be submitted within 36 hours  of when it is returned. No requests will be considered afterwards.
 
-Assignments may be submitted up to 3 days late for a 5%/day penalty.
+Assignments may be submitted up to 3 days late for a 10%/day penalty.
 
 ## Schedule
 
@@ -98,22 +97,21 @@ Assignments may be submitted up to 3 days late for a 5%/day penalty.
 | 13 (11/23) | Thanksgiving Break | |
 | 14 (11/23) | [Web II](week/14/Web-2.pdf) | [Writeup 12](week/14) |
 | 15 (11/30) | (Potential Guest Speaker or Demo Day) | |
-| 16 (12/7) | [Wrap-up](https://github.com/UMD-CS-STICs/389Rspring18/tree/master/week/14) | Final hack. |
+| 16 (12/7) | [Wrap-up]() | Final hack. |
 
 The timeline is not final and can be subject to change.
 
 ## Communicating with course staff
 
-There are no designated office hours for this course. Course staff will remain in the classroom after class on Friday's to answer questions and provide assistance as needed. Meetings can also be scheduled via Piazza.
+All official announcements will be sent through the course Piazza. Interaction between students and course staff will also occur via Piazza. Email should only be used for emergencies.
 
-Outside of class interaction between students and course staff will occur via piazza.
-Email should only be used for emergencies and not class related questions.
+Office hours will be provided after class on Friday's from 3-4 PM. Course staff will remain in the classroom to answer questions and provide assistance as needed. Meetings can also be scheduled via Piazza.
 
-Instructor:
+Faculty Admin:
 
 Dr. Dave Levin - dml@cs.umd.edu
 
-TAs:
+Instructors:
 
 Michael Reininger - michael@csec.umiacs.umd.edu
 
