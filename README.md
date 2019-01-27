@@ -12,7 +12,7 @@ This practical, hands-on [1-credit course](http://sticsumd.com/) provides studen
 - **Seats**: 30, 2 sections
 - **Lecture Time**: Fridays, 2-2:50 PM (0101) and 3-3:50 PM (0201)
 - **Location**: CSI 2118
-- **Semester**: Spring 2018
+- **Semester**: Spring 2019
 - **Textbook**: None
 - **Course Facilitators**: [Michael Reininger](https://www.github.com/1umpus), [Joshua Fleming](https://github.com/jsfleming), [Wesley Weidenhamer](https://github.com/wesley27) and [Mike Bailey](https://github.com/Miskerest)
 - **Faculty Advisor**: [Dave Levin](http://www.cs.umd.edu/~dml/)
