@@ -9,8 +9,8 @@ This practical, hands-on [1-credit course](http://sticsumd.com/) provides studen
 - **Course**: [CMSC389R](https://testudo.umd.edu)
 - **Prerequisites**: C- or better in CMSC216 and CMSC250
 - **Credits**: 1
-- **Seats**: 30
-- **Lecture Time**: Fridays, 3-3:50PM
+- **Seats**: 30, 2 sections
+- **Lecture Time**: Fridays, 2-2:50 PM (0101) and 3-3:50 PM (0201)
 - **Location**: CSI 2118
 - **Semester**: Spring 2018
 - **Textbook**: None
@@ -77,20 +77,20 @@ Any request for reconsideration of any grading on coursework must be submitted w
 
 | Week | Topic | Assignment |
 | ----|----|----- |
-| 1 (1/26) | [Introduction + Ethics 1](week/1/Introduction.pdf) | Download [VirtualBox](https://www.virtualbox.org/), [Kali](https://www.kali.org/). [Gray Hat Hacking (Ch. 1)](https://archive.org/details/GrayHatHackingTheEthicalHackersHandbook3rdEdition). [OSINT Handbook](http://www.i-intelligence.eu/wp-content/uploads/2016/11/2016_November_Open-Source-Intelligence-Tools-and-Resources-Handbook.pdf). [OPSEC](http://opsec.readthedocs.io/en/latest/). |
-| 2 (2/2) | [Ethics 2 + OSINT 1](week/2/OSINT.pdf) | [Challenges.](week/2/challenges/README.md) Write-up 1. [Kali VM installation instructions](week/2/kali_instructions.pdf)|
-| 3 (2/9) | [OSINT 2 + Vulnerability scanning](week/3/OSINT2-Vulnerability-Scanning.pdf) | [Challenges.](week/3/challenges/README.md) Write-up 2. |
-| 4 (2/16) | [Penetration testing I](week/4/Pentesting-1.pdf) | [Challenges.](week/4/challenges/README.md) Write-up 3. |
-| 5 (2/23) | [Penetration testing II](week/5/Pentesting-2.pdf) | [Challenges.](week/5/challenges) Write-up 4. |
-| 6 (3/2) | [Forensics I](week/6/Forensics-1.pdf) | [Challenges.](week/6/challenges) Write-up 5. |
-| 7 (3/9) | [Forensics II](week/7/Forensics-2.pdf) | [Challenges.](week/7/challenges) Write-up 6. |
-| 8 (3/16) | Midterm | Start of spring break. |
-| 9 (3/30) | [Cryptography I](week/9/Crypto-1.pdf) | [Challenges.](week/9/challenges) Write-up 7.|
-| 10 (4/6) | [Cryptography II](week/10/Crypto-2.pdf) | [Challenges.](week/10/) Write-up 8.|
-| 11 (4/13) | [Web](week/11/Web.pdf) | [Challenges.](week/11/challenges) Write-up 9. |
-| 12 (4/20) | [Binaries I](week/12/Binaries-1.pdf) | [Challenges.](week/12/challenges) Write-up 10. |
-| 13 (4/27) | [Binaries II](week/13/Binaries-2.pdf) | [Challenges.](https://github.com/UMD-CS-STICs/389Rspring18/tree/master/week/13) Write-up 11. |
-| 14 (5/4) | [Wrap-up](https://github.com/UMD-CS-STICs/389Rspring18/tree/master/week/14) | Final hack. |
+| 1 (2/1) | [Introduction + Ethics 1](week/1/Introduction.pdf) | Download [VirtualBox](https://www.virtualbox.org/), [Kali](https://www.kali.org/). [Gray Hat Hacking (Ch. 1)](https://archive.org/details/GrayHatHackingTheEthicalHackersHandbook3rdEdition). [OSINT Handbook](http://www.i-intelligence.eu/wp-content/uploads/2016/11/2016_November_Open-Source-Intelligence-Tools-and-Resources-Handbook.pdf). [OPSEC](http://opsec.readthedocs.io/en/latest/). |
+| 2 (2/8) | [Ethics 2 + OSINT 1](week/2/OSINT.pdf) | [Challenges.](week/2/challenges/README.md) Write-up 1. [Kali VM installation instructions](week/2/kali_instructions.pdf)|
+| 3 (2/15) | [OSINT 2 + Vulnerability scanning](week/3/OSINT2-Vulnerability-Scanning.pdf) | [Challenges.](week/3/challenges/README.md) Write-up 2. |
+| 4 (2/22) | [Penetration testing I](week/4/Pentesting-1.pdf) | [Challenges.](week/4/challenges/README.md) Write-up 3. |
+| 5 (3/1) | [Penetration testing II](week/5/Pentesting-2.pdf) | [Challenges.](week/5/challenges) Write-up 4. |
+| 6 (3/8) | [Forensics I](week/6/Forensics-1.pdf) | [Challenges.](week/6/challenges) Write-up 5. |
+| 7 (3/15) | Midterm | Start of spring break. |
+| 8 (3/22) | [Forensics II](week/7/Forensics-2.pdf) | [Challenges.](week/7/challenges) Write-up 6. |
+| 9 (3/29) | [Cryptography I](week/9/Crypto-1.pdf) | [Challenges.](week/9/challenges) Write-up 7.|
+| 10 (4/5) | [Cryptography II](week/10/Crypto-2.pdf) | [Challenges.](week/10/) Write-up 8.|
+| 11 (4/12) | [Web](week/11/Web.pdf) | [Challenges.](week/11/challenges) Write-up 9. |
+| 12 (4/19) | [Binaries I](week/12/Binaries-1.pdf) | [Challenges.](week/12/challenges) Write-up 10. |
+| 13 (4/26) | [Binaries II](week/13/Binaries-2.pdf) | [Challenges.](https://github.com/UMD-CS-STICs/389Rspring18/tree/master/week/13) Write-up 11. |
+| 14 (5/3) | [Wrap-up](https://github.com/UMD-CS-STICs/389Rspring18/tree/master/week/14) | Final hack. |
 
 The timeline is not final and can be subject to change.
 
@@ -107,10 +107,11 @@ TAs:
 
 Michael Reininger - michael@csec.umiacs.umd.edu
 
-William Woodruff - william@yossarian.net
-
 Joshua Fleming - secretary@csec.umiacs.umd.edu
 
+Wesley Weidenhamer - wesley@csec.umiacs.umd.edu
+
+Mike Bailey - misker@protonmail.com
 
 ## Excused Absence and Academic Accommodations
 See the section titled <a href="http://www.ugst.umd.edu/courserelatedpolicies.html">Course Related Policies</a>.
