@@ -1,5 +1,5 @@
 # CMSC389R: Introduction to Ethical Hacking (HackTheClass)
-![HackTheClass](HackTheClass.png)
+![HackTheClass](https://github.com/UMD-CS-STICs/389Rfall18/blob/master/HackTheClass.png)
 
 ## Course Description
 This practical, hands-on [1-credit course](http://sticsumd.com/) provides students with an introduction to ethical hacking. The course begins with a discussion on the ethics behind security research and progresses to topics that surround penetration testing, forensics, cryptology, and binary reverse engineering and exploitation. This course is also meant to introduce students to Capture-the-Flag (CTF) style cybersecurity challenges, encourages participation in UMD's Cybersecurity Club ([UMDCSEC](https://csec.umd.edu)), and prepares for CMSC414.
