@@ -1,9 +1,11 @@
 # Homework Submission and Clone Repository Instructions
 
 ## Overview
-Homework assignment and submission for this class will be handled through GitHub. This is meant as a way to teach and familiarize you with git technology, as well as build a portfolio of cybersecurity writeups on your personal GitHub accounts. Grades will be assigned through ELMS.
+Homework assignment and submission for this class will be handled through GitHub. This is meant as a way to teach and familiarize you with git software, as well as build a portfolio of cybersecurity writeups on your personal GitHub accounts. We will be running scripts that automatically retrieve your homeworks, and grades will be assigned through ELMS.
 
-This guide covers how to setup the GitHub and local repositories you will need for this class. Please pay careful attention to the mention of *class* repository and *personal* repository in this guide.
+This guide covers how to setup the GitHub **and** local repositories you will need for this class. Please pay careful attention to the mention of *class* repository versus *personal* repository in this guide.
+
+We recommend you follow this guide and use git from within your Kali VM.
 
 ## Getting Started
 If you don't already have a GitHub account, you will have to create one. You can do this [here](https://github.com/).
@@ -15,34 +17,34 @@ If you don't already have a GitHub account, you will have to create one. You can
     git config --global user.email "YOUR EMAIL HERE"
     ```
 
-2. Now you need to copy our [class repository](https://github.com/UMD-CS-STICs/389Rfall18) into your own personal GitHub repository.
+2. Now you need to copy our [class repository](https://github.com/UMD-CS-STICs/389Rspring19) into your own personal GitHub repository.
     - Click the above link and look for the button in the top right corner that says "fork."
     - Click the "fork" button and wait a few seconds, GitHub should create a new repository on your account that's identical to our class repository.
 
 ## Creating a local repository to push and pull assignments from
-Now that you have a personal copy of our class repository, you need to download it so that you can make changes on your computer and then re-upload them. Downloading and re-uploading through git is called *pushing* and *pulling*.
+Now you have a personal copy of the class repository. You need to download it so you can make changes on your computer and then re-upload them. Downloading and re-uploading through git is called *pulling* and *pushing*.
 
-You will need to *pull* changes from our class repository every week as we upload new lecture slides and assignments. When you complete the assignments, you'll need to *push* them to your personal copy of the repsitory.
+You need to *pull* changes from our class repository every week as we upload new lecture slides and assignments. When you complete the assignments, you'll need to *push* them to your personal copy of the repository on GitHub.
 
-3. In your terminal, navigate to a directory where you want to copy your personal repository.
-    - Execute the following command, replacing <GitHub Username> with your GitHub username.
+1. In your terminal, navigate to a directory where you want to copy your personal repository.
+    - Execute the following command, replacing \<GitHub Username> with your GitHub username.
     ```
-    git clone https://github.com/<GitHub Username>/389Rfall18
+    git clone https://github.com/<GitHub Username>/389Rspring
     ```
 
-4. Once the repository is cloned, cd into its directory. We need to add our class repository as a remote for pulling data.
+2. Once the repository is cloned, cd into its directory. We need to add our class repository as a remote for pulling data.
     - Execute the following command:
     ```
-    git remote add upstream https://github.com/UMD-CS-STICs/389Rfall18
+    git remote add upstream https://github.com/UMD-CS-STICs/389Rspring19
     ```
 
-5. Confirm that the previous command was successful by executing the following command.
+3. Confirm that the previous command was successful by executing the following command.
     - This command should output 4 lines, a *fetch* and a *push* for "origin" and "upstream"
     ```
     git remote -v
     ```
 
-***You only need to do everything above this line once at the beginning of the semester. The following instructions need to be done every week to obtain the new assignment.***
+***You only need to do everything above this line once, at the beginning of the semester. The remaining instructions need to be done every week to obtain the new slides and assignments.***
     
 # Pulling data from the class repository before starting your homework
 As mentioned, you will need to do this every week to grab the latest assignments from our class repository. You must have completed all of the above steps for this to work.
