@@ -60,7 +60,7 @@ This practical, hands-on [1-credit course](http://sticsumd.com/) provides studen
     - Write-ups and Proof-of-Concept (PoC)
 
 ## Grading
-Assignments should be submitted through your personal fork of our class repository. Instructions on how to set this up and do it can be found [here](HW_Submit_Instructions.md).
+Assignments should be submitted through your personal fork of our class repository. Instructions on how to set this up and do it can be found [here](guides/git_instructions.md).
 
 Grades will be released through ELMS.
 
@@ -82,21 +82,21 @@ Assignments may be submitted up to 3 days late for a 10%/day penalty.
 
 | Week | Topic | Assignment |
 | ----|----|----- |
-| 1 (2/1) | [Introduction + Ethics]() | [Writeup 1](), Download [VirtualBox](https://www.virtualbox.org/), [Kali](https://www.kali.org/), [Gray Hat Hacking (Ch. 1)](https://archive.org/details/GrayHatHackingTheEthicalHackersHandbook3rdEdition), [OSINT Handbook](https://www.i-intelligence.eu/wp-content/uploads/2016/11/2016_November_Open-Source-Intelligence-Tools-and-Resources-Handbook.pdf)
-| 2 (2/8) |[OSINT]() | [Writeup 2](), [Kali VM installation instructions](https://github.com/UMD-CS-STICs/389Rspring19/blob/master/week/2/kali_instructions.pdf)|
-| 3 (2/15) | [OPSEC, Vulnerability scanning, Social Engineering]() | [Writeup 3]() |
-| 4 (2/22) | [Penetration Testing]() | [Writeup 4]() |
-| 5 (3/1) | [Forensics I]() | [Writeup 5]() |
-| 6 (3/8) | [Forensics II]() | [Writeup 6]() |
+| 1 (2/1) | [Introduction + Ethics](lectures/) | [Writeup 1](assignments/), Download [VirtualBox](https://www.virtualbox.org/), [Kali](https://www.kali.org/), [Gray Hat Hacking (Ch. 1)](https://archive.org/details/GrayHatHackingTheEthicalHackersHandbook3rdEdition), [OSINT Handbook](https://www.i-intelligence.eu/wp-content/uploads/2016/11/2016_November_Open-Source-Intelligence-Tools-and-Resources-Handbook.pdf)
+| 2 (2/8) |[OSINT](lectures/) | [Writeup 2](assignments/), [Kali VM installation instructions](guides/kali_instructions.pdf)|
+| 3 (2/15) | [OPSEC, Vulnerability scanning, Social Engineering](lectures/) | [Writeup 3](assignments/) |
+| 4 (2/22) | [Penetration Testing](lectures/) | [Writeup 4](assignments/) |
+| 5 (3/1) | [Forensics I](lectures/) | [Writeup 5](assignments/) |
+| 6 (3/8) | [Forensics II](lectures/) | [Writeup 6](assignments/) |
 | 7 (3/15) | Midterm | |
 | 9 (3/22) | Spring Break | |
-| 10 (3/29) | [Binaries I]() | [Writeup 8]() |
-| 10 (4/5) | [Binaries II]() | [Writeup 9]() |
-| 11 (4/12) | [Cryptography I]() | [Writeup 10]() |
-| 12 (4/19) | [Cryptography II]() | [Writeup 11]() |
-| 13 (4/26) | [Web I]() | [Writeup 7]() |
-| 14 (5/3) | [Web II]() | [Writeup 12]() |
-| 16 (5/10) | [Wrap-up]() | Final hack. |
+| 10 (3/29) | [Binaries I](lectures/) | [Writeup 8](assignments/) |
+| 10 (4/5) | [Binaries II](lectures/) | [Writeup 9](assignments/) |
+| 11 (4/12) | [Cryptography I](lectures/) | [Writeup 10](assignments/) |
+| 12 (4/19) | [Cryptography II](lectures/) | [Writeup 11](assignments/) |
+| 13 (4/26) | [Web I](lectures/) | [Writeup 7](assignments/) |
+| 14 (5/3) | [Web II](lectures/) | [Writeup 12](assignments/) |
+| 16 (5/10) | [Wrap-up](lectures/) | Final hack. |
 
 The timeline is not final and can be subject to change.
 
