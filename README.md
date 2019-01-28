@@ -14,9 +14,9 @@ This practical, hands-on [1-credit course](http://sticsumd.com/) provides studen
 - **Location**: CSI 2118
 - **Semester**: Spring 2019
 - **Textbook**: None
-- **Course Facilitators**: [Michael Reininger](https://www.github.com/1umpus), [Wesley Weidenhamer](https://github.com/wesley27), [Joshua Fleming](https://github.com/jsfleming), and [Michael Bailey](https://github.com/Miskerest)
+- **Course Facilitators**: [Michael Reininger](https://www.github.com/1umpus), [Wesley Weidenhamer](https://github.com/wesley27), [Joshua Fleming](https://github.com/jsfleming), and [Mike Bailey](https://github.com/Miskerest)
 - **Faculty Advisor**: [Dave Levin](http://www.cs.umd.edu/~dml/)
-- **Syllabus Last Updated**: January 23, 2019
+- **Syllabus Last Updated**: January 28, 2019
 - **Previous Offering**: [Spring 2018](https://github.com/UMD-CS-STICs/389Rspring18), [Fall 2018](https://github.com/UMD-CS-STICs/389Rfall18)
 
 ## Topics Covered
@@ -70,9 +70,9 @@ Your final course grade will be determined according to the following percentage
 
 | Percentage | Title | Description |
 | ------------- | -----|-------- |
-| 50% | Write-ups  | Weekly individual write-ups (250-500 words) that summarize and explain your solutions to the assigned CTF challenges or concepts covered in lecture. |
+| 55% | Write-ups  | Weekly individual write-ups (250-500 words) that summarize and explain your solutions to the assigned CTF challenges or concepts covered in lecture. |
 | 20% | Midterm | Examination on topics covered until Forensics II. |
-| 30% | Final Hack | Demonstrate mastery of all topics learned and apply knowledge to change your grade on the class's private grade server. The grade earned will be determined by levels unlocked in the grade server and will be applied to your official final grade. 
+| 25% | Final Hack | Demonstrate mastery of all topics learned and apply knowledge to change your grade on the class's private grade server. The grade earned will be determined by levels unlocked in the grade server and will be applied to your official final grade. 
 
 Any request for reconsideration of any grading on coursework must be submitted within 36 hours  of when it is returned. No requests will be considered afterwards.
 
@@ -82,28 +82,27 @@ Assignments may be submitted up to 3 days late for a 10%/day penalty.
 
 | Week | Topic | Assignment |
 | ----|----|----- |
-| 1 (8/31) | [Introduction + Ethics 1](week/1/Introduction.pdf) | [Writeup 1](week/1), Download [VMWare](https://terpware.umd.edu), [Kali](https://www.kali.org/). [OSINT Handbook](https://www.i-intelligence.eu/wp-content/uploads/2016/11/2016_November_Open-Source-Intelligence-Tools-and-Resources-Handbook.pdf)
-| 2 (9/7) |[Ethics 2 + OSINT 1](week/2/OSINT.pdf) | [Writeup 2](week/2), [Kali VM installation instructions](https://github.com/UMD-CS-STICs/389Rspring18/blob/master/week/2/kali_instructions.pdf)|
-| 3 (9/14) | [OSINT II + Vulnerability scanning](https://github.com/UMD-CS-STICs/389Rfall18/blob/master/week/3/VulnerabilityScanning_OpSec_SE.pdf) | [Writeup 3](week/3) |
-| 4 (9/21) | [Penetration testing I](week/4/Pentesting-1.pdf) | [Writeup 4](week/4) |
-| 5 (9/28) | [Binaries I](week/5/Binaries%20I.pdf) | [Writeup 5](week/5) |
-| 6 (10/5) | [Binaries II](week/6/Binaries-2.pdf) | [Writeup 6](week/6) |
-| 7 (10/12) | [Forensics I](week/7/ForensicsI.pdf) | [Writeup 7](week/7) |
-| 9 (10/19) | Midterm | |
-| 10 (10/26) | [Forensics II](week/8/Forensics-II.pdf) | [Writeup 8](week/8) |
-| 10 (11/2) | [Cryptography I](week/9/Crypto-1.pdf) | [Writeup 9](week/9) |
-| 11 (11/9) | [Cryptography II](week/10/Crypto-2.pdf) | [Writeup 10](week/10) |
-| 12 (11/16) | [Web I](week/11/Web.pdf) | [Writeup 11](week/11) |
-| 13 (11/23) | Thanksgiving Break | |
-| 14 (11/23) | [Web II](week/14/Web-2.pdf) | [Writeup 12](week/14) |
-| 15 (11/30) | (Potential Guest Speaker or Demo Day) | |
-| 16 (12/7) | [Wrap-up]() | Final hack. |
+| 1 (2/1) | [Introduction + Ethics]() | [Writeup 1](), Download [VirtualBox](https://www.virtualbox.org/), [Kali](https://www.kali.org/), [Gray Hat Hacking (Ch. 1)](https://archive.org/details/GrayHatHackingTheEthicalHackersHandbook3rdEdition), [OSINT Handbook](https://www.i-intelligence.eu/wp-content/uploads/2016/11/2016_November_Open-Source-Intelligence-Tools-and-Resources-Handbook.pdf)
+| 2 (2/8) |[OSINT]() | [Writeup 2](), [Kali VM installation instructions](https://github.com/UMD-CS-STICs/389Rspring19/blob/master/week/2/kali_instructions.pdf)|
+| 3 (2/15) | [OPSEC, Vulnerability scanning, Social Engineering]() | [Writeup 3]() |
+| 4 (2/22) | [Penetration Testing]() | [Writeup 4]() |
+| 5 (3/1) | [Forensics I]() | [Writeup 5]() |
+| 6 (3/8) | [Forensics II]() | [Writeup 6]() |
+| 7 (3/15) | Midterm | |
+| 9 (3/22) | Spring Break | |
+| 10 (3/29) | [Binaries I]() | [Writeup 8]() |
+| 10 (4/5) | [Binaries II]() | [Writeup 9]() |
+| 11 (4/12) | [Cryptography I]() | [Writeup 10]() |
+| 12 (4/19) | [Cryptography II]() | [Writeup 11]() |
+| 13 (4/26) | [Web I]() | [Writeup 7]() |
+| 14 (5/3) | [Web II]() | [Writeup 12]() |
+| 16 (5/10) | [Wrap-up]() | Final hack. |
 
 The timeline is not final and can be subject to change.
 
 ## Communicating with course staff
 
-All official announcements will be sent through the course Piazza. Interaction between students and course staff will also occur via Piazza. Email should only be used for emergencies.
+Official announcements will be sent through the course Piazza. Interaction between students and course staff will also occur via Piazza. Email should only be used for emergencies.
 
 Office hours will be provided after class on Friday's from 3-4 PM. Course staff will remain in the classroom to answer questions and provide assistance as needed. Meetings can also be scheduled via Piazza.
 
@@ -118,6 +117,8 @@ Michael Reininger - michael@csec.umiacs.umd.edu
 Wesley Weidenhamer - wesley@csec.umiacs.umd.edu
 
 Joshua Fleming - president@csec.umiacs.umd.edu
+
+Mike Bailey - misker@protonmail.com
 
 
 ## Excused Absence and Academic Accommodations
