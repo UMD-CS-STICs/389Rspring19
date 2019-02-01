@@ -1,5 +1,7 @@
 # Assignments Directory
+
 ## Overview
+
 This directory will be used for distributing and submitting your homework assignments.
 
 All assignment folders will contain a README file containing instructions for that assignment, as well as any extra information or stub code provided by us.
