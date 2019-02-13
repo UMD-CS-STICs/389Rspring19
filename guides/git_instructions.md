@@ -1,7 +1,7 @@
 # Homework Submission and Clone Repository Instructions
 
 ## Overview
-Homework assignment and submission for this class will be handled through GitHub. This is meant as a way to teach and familiarize you with git software, as well as build a portfolio of cybersecurity writeups on your personal GitHub accounts. We will be running scripts that automatically retrieve your homeworks, and grades will be assigned through ELMS.
+Homework assignment and submission for this class will be handled through GitHub. This is meant as a way to teach and familiarize you with git software, as well as build a portfolio of cybersecurity writeups on your personal GitHub accounts. We will be running scripts that automatically retrieve your homeworks, and grades will be assigned through [ELMS](https://myelms.umd.edu/courses/1261976).
 
 This guide covers how to setup the GitHub **and** local repositories you will need for this class. Please pay careful attention to the mention of *class* repository versus *personal* repository in this guide.
 

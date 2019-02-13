@@ -62,7 +62,7 @@ This practical, hands-on [1-credit course](http://sticsumd.com/) provides studen
 ## Grading
 Assignments should be submitted through your personal fork of our class repository. Instructions on how to set this up and do it can be found [here](guides/git_instructions.md).
 
-Grades will be released through ELMS.
+Grades will be released through [ELMS](https://myelms.umd.edu/courses/1261976).
 
 You are responsible for all material discussed in lecture and posted on the class repository, including announcements, deadlines, policies, etc.
 
