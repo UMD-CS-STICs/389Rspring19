@@ -29,7 +29,7 @@ You need to *pull* changes from our class repository every week as we upload new
 1. In your terminal, navigate to a directory where you want to copy your personal repository.
     - Execute the following command, replacing \<GitHub Username> with your GitHub username.
     ```
-    git clone https://github.com/<GitHub Username>/389Rspring
+    git clone https://github.com/<GitHub Username>/389Rspring19
     ```
 
 2. Once the repository is cloned, cd into its directory. We need to add our class repository as a remote for pulling data.
