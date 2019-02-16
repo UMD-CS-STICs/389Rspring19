@@ -11,7 +11,7 @@ To submit your homework, please follow the guidelines posted on the syllabus und
 
 Create a GitHub account and fork, clone, and set up your repositories to submit your homework assignments. Follow the guidelines on the [syllabus](../../README.md) and our [HW submission/git Instructions](../../guides/git_instructions.md).
 
-Once you've forked our class repository into your GitHub account, submit the URL of your GitHub repository via the [assignment on ELMS](). (We know this isn't currently, up, it will be soon!)
+Once you've forked our class repository into your GitHub account, submit the URL of your GitHub repository via the [assignment on ELMS](https://myelms.umd.edu/courses/1261976/assignments/4844474).
 
 You should also download VirtualBox (free) or VMWare (through terpware) and Kali Linux and setup a VM. If you need help, we have a [guide for how to do this](../../guides/kali_instructions.pdf).
 
