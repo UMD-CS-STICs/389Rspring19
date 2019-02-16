@@ -83,7 +83,7 @@ Assignments may be submitted up to 3 days late for a 10%/day penalty.
 | Week | Topic | Assignment |
 | ----|----|----- |
 | 1 (2/1) | [Introduction + Ethics](lectures/1_Intro+Ethics.pdf) | [Writeup 1](assignments/1_Ethics/), Download [VirtualBox](https://www.virtualbox.org/), [Kali](https://www.kali.org/), [Gray Hat Hacking (Ch. 1)](https://archive.org/details/GrayHatHackingTheEthicalHackersHandbook3rdEdition), [OSINT Handbook](https://www.i-intelligence.eu/wp-content/uploads/2016/11/2016_November_Open-Source-Intelligence-Tools-and-Resources-Handbook.pdf)
-| 2 (2/8) |[OSINT](lectures/) | [Writeup 2]((assignments/2_OSINT/)), [Kali VM installation instructions](guides/kali_instructions.pdf)|
+| 2 (2/8) |[OSINT](lectures/) | [Writeup 2](assignments/2_OSINT/), [Kali VM installation instructions](guides/kali_instructions.pdf)|
 | 3 (2/15) | [OPSEC, Vulnerability scanning, Social Engineering](lectures/) | [Writeup 3](assignments/) |
 | 4 (2/22) | [Penetration Testing](lectures/) | [Writeup 4](assignments/) |
 | 5 (3/1) | [Forensics I](lectures/) | [Writeup 5](assignments/) |
