@@ -1,5 +1,5 @@
 """
-    If you know the IP address of the Briong server and you
+    If you know the IP address of v0idcache's server and you
     know the port number of the service you are trying to connect
     to, you can use nc or telnet in your Linux terminal to interface
     with the server. To do so, run:
@@ -52,7 +52,7 @@ def brute_force():
 
             Given that you know a potential username, use a wordlist and iterate
             through each possible password and repeatedly attempt to login to
-            the Briong server.
+            v0idcache's server.
     """
 
     username = ""   # Hint: use OSINT
