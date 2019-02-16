@@ -37,7 +37,7 @@ Use OSINT techniques to learn as much as you can about `v0idcache` and answer th
 
 Use the provided python stub code [('stub.py')](stub.py) or write your own program in another language to gain access to `v0idcache`'s server via an open port that you should have found in Part 1.
 
-Once you have gained access to v0idcache's account with the correct login credentials, you will have access to a system shell.
+Once you have gained access to `v0idcache`'s account with the correct login credentials, you will have access to a system shell.
 
 Use your knowledge of Linux and OSINT techniques to locate the flag file and submit its contents for points.
 
