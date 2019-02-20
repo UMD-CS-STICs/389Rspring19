@@ -3,7 +3,7 @@ OSINT (Open Source Intelligence)
 
 ## Assignment details
 
-This assignment has two parts. It is due by Thursday, February 21 at 11:59 PM.
+This assignment has two parts. It is due by Friday, February 22 at 11:59 PM.
 
 To submit your homework, please follow the guidelines posted under the grading section of the syllabus.
 
