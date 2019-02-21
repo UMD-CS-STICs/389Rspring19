@@ -25,6 +25,16 @@ Use OSINT techniques to learn as much as you can about `v0idcache` and answer th
 Elizabeth is the CEO of the company.She lives in the Netherlands, according to her twitter account. I used usersearch.org to search the user tag 'v0idcache', which led me to the twitter account of Elizabeth.
 
 4. List any ( >= 1 ) IP addresses associated with the website. For each, detail the location of the server, any history in DNS, and how you discovered this information.
+142.93.136.81 Canada
+DNs 216.87.155.33 United States
+216.87.152.33  '''
+162.255.118.61
+162.255.118.62
+162.255.118.62
+162.255.118.62
+162.255.118.61
+
+
 
 5. List any hidden files or directories you found on this website. For full credit, list *two* distinct flags.
 User-agent: *
@@ -36,6 +46,8 @@ Disallow: /secret_directory
 1337    waste
 I discovered the ports and services using nmap
 7. Which operating system is running on the website? How did you discover this?
+Werkzeug/0.14.1 Python/3.7.2
+I used wget on the url 
 
 8. **BONUS:** Did you find any other flags on your OSINT mission? (Up to 9 pts!)
 Congrats! Flag is: CMSC389R-{h1ding_fil3s_in_r0bots_L0L}
