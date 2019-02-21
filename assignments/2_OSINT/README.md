@@ -17,22 +17,26 @@ NOTE: "briefly describe" = 2-3 sentences (and/or include screenshot(s))
 
 Use OSINT techniques to learn as much as you can about `v0idcache` and answer the following questions:
 
-1. What is `v0idcache`'s real name?
+1. What is `v0idcache`'s real name? Elizabeth Moffet
 
-2. Where does `v0idcache` work? What is the URL to their website?
+2. Where does `v0idcache` work? What is the URL to their website? She works at Elite Banking. http://1337bank.money/
 
 3. List all personal information (including social media accounts, contacts, etc) you can find about `v0idcache`. For each, briefly detail how you discovered them.
+Elizabeth is the CEO of the company.She lives in the Netherlands, according to her twitter account. I used usersearch.org to search the user tag 'v0idcache', which led me to the twitter account of Elizabeth.
 
 4. List any ( >= 1 ) IP addresses associated with the website. For each, detail the location of the server, any history in DNS, and how you discovered this information.
 
 5. List any hidden files or directories you found on this website. For full credit, list *two* distinct flags.
+User-agent: *
+Disallow: /secret_directory
 
 6. What ports are open on the website? What services are running behind these ports? How did you discover this?
 
 7. Which operating system is running on the website? How did you discover this?
 
 8. **BONUS:** Did you find any other flags on your OSINT mission? (Up to 9 pts!)
-
+Congrats! Flag is: CMSC389R-{h1ding_fil3s_in_r0bots_L0L}
+Good find! CMSC389R-{h1dd3n_1n_plain_5ight}
 ### Part 2
 
 Use the provided python stub code [('stub.py')](stub.py) or write your own program in another language to gain access to `v0idcache`'s server via an open port that you should have found in Part 1.
