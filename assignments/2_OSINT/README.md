@@ -29,7 +29,7 @@ Use OSINT techniques to learn as much as you can about `v0idcache` and answer th
 
 6. What ports are open on the website? What services are running behind these ports? How did you discover this?
 
-7. Which operating system is running on the website? How did you discover this?
+7. Which operating system is running on the server that is hosting the website? How did you discover this?
 
 8. **BONUS:** Did you find any other flags on your OSINT mission? (Up to 9 pts!)
 
