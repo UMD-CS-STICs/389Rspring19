@@ -31,7 +31,7 @@ User-agent: *
 Disallow: /secret_directory
 
 6. What ports are open on the website? What services are running behind these ports? How did you discover this?
-
+22/tcp  ssh       80/tcp   http                                                                                                                       
 7. Which operating system is running on the website? How did you discover this?
 
 8. **BONUS:** Did you find any other flags on your OSINT mission? (Up to 9 pts!)
