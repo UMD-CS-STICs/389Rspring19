@@ -34,7 +34,7 @@ DNs 216.87.155.33 United States
 162.255.118.62
 162.255.118.61
 
-
+I used DnsDumpster to get this information
 
 5. List any hidden files or directories you found on this website. For full credit, list *two* distinct flags.
 User-agent: *
