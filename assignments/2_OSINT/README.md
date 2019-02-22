@@ -39,7 +39,8 @@ I used DnsDumpster to get this information
 5. List any hidden files or directories you found on this website. For full credit, list *two* distinct flags.
 User-agent: *
 Disallow: /secret_directory
-
+ CMSC389R-{h1ding_fil3s_in_r0bots_L0L}
+ CMSC389R-{h1dd3n_1n_plain_5ight}
 6. What ports are open on the website? What services are running behind these ports? How did you discover this?
 22/tcp  ssh       
 80/tcp  http  
@@ -50,21 +51,10 @@ Werkzeug/0.14.1 Python/3.7.2
 I used wget on the url 
 
 8. **BONUS:** Did you find any other flags on your OSINT mission? (Up to 9 pts!)
-Congrats! Flag is: CMSC389R-{h1ding_fil3s_in_r0bots_L0L}
-Good find! CMSC389R-{h1dd3n_1n_plain_5ight}
+ CMSC389R-{0M3G4LUL_G3T_pWN3d_N00b}
 ### Part 2
-
-Use the provided python stub code [('stub.py')](stub.py) or write your own program in another language to gain access to `v0idcache`'s server via an open port that you should have found in Part 1.
-
-Once you have gained access to `v0idcache`'s account with the correct login credentials, you will have access to a system shell.
-
-Use your knowledge of Linux and OSINT techniques to locate the flag file and submit its contents for points.
-
-Your response here should briefly document how you approached and solved this part of the assignment. You should also push your bruteforce program to the "week/2/writeup" folder of your GitHub repository.
-
-Note: If you choose to write your own program in another language, please include instructions on how to execute your program, including what version of the language you are using. You will **NOT** receive credit if the TAs cannot run your program.
-
-If you are stuck on this part of the assignment, let us know! The facilitator staff is here to help and teach, and we are open to releasing hints as time goes on!
+username: v0idcache
+password: linkinpark
 
 ### Format
 In the "week/2/writeup" directory of our repository there is a README.md file for you to edit and submit your homework in. Use this as a template and directly edit it with your answers. Complete your bruteforce program in this directory as well. When you've finished the assignment, push it up to your personal GitHub for us to grade.
