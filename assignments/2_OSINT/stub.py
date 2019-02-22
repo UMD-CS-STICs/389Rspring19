@@ -42,7 +42,7 @@ def brute_force():
         s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
         s.connect( (host,port) )
 
-    print("Bruteforce Username:"+username+"\t Password:"+ password)
+    print("username:"+username+"\t Password:"+ password)
     data = s.recv(1024)
 
     s.send(username +"\n")
