@@ -3,7 +3,7 @@ OSINT (Open Source Intelligence)
 
 ## Assignment details
 
-This assignment has two parts. It is due by Thursday, February 12 at 11:59 PM.
+This assignment has two parts. It is due by Friday, February 22 at 11:59 PM.
 
 To submit your homework, please follow the guidelines posted under the grading section of the syllabus.
 
@@ -42,6 +42,7 @@ Disallow: /secret_directory
  CMSC389R-{h1ding_fil3s_in_r0bots_L0L}
  CMSC389R-{h1dd3n_1n_plain_5ight}
 6. What ports are open on the website? What services are running behind these ports? How did you discover this?
+<<<<<<< HEAD
 22/tcp  ssh       
 80/tcp  http  
 1337    waste
@@ -49,6 +50,10 @@ I discovered the ports and services using nmap
 7. Which operating system is running on the website? How did you discover this?
 Werkzeug/0.14.1 Python/3.7.2
 I used wget on the url 
+=======
+
+7. Which operating system is running on the server that is hosting the website? How did you discover this?
+>>>>>>> upstream/master
 
 8. **BONUS:** Did you find any other flags on your OSINT mission? (Up to 9 pts!)
  CMSC389R-{0M3G4LUL_G3T_pWN3d_N00b}
