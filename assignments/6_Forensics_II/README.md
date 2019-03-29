@@ -2,7 +2,7 @@
 
 ## Assignment details
 
-This assignment has two parts. It is due by 4/5/19 at 11:59PM.
+This assignment has two parts. It is due by 4/4/19 at 11:59PM.
 
 **There will be a late penalty of 5% per day late!**
 
