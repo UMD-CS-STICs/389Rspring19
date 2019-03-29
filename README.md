@@ -87,7 +87,7 @@ Assignments may be submitted up to 3 days late for a 10%/day penalty.
 | 3 (2/15) | [OPSEC, Vulnerability scanning, Social Engineering](lectures/) | [Writeup 3](assignments/3_OPSEC_SE) |
 | 4 (2/22) | [Penetration Testing](lectures/) | [Writeup 4](assignments/4_Pentesting_I) |
 | 5 (3/1) | [Forensics I](lectures/) | [Writeup 5](assignments/) |
-| 6 (3/8) | [Forensics II](lectures/) | [Writeup 6](assignments/) |
+| 6 (3/8) | [Forensics II](lectures/6_Forensics_II) | [Writeup 6](assignments/) |
 | 7 (3/15) | Midterm | |
 | 9 (3/22) | Spring Break | |
 | 10 (3/29) | [Binaries I](lectures/) | [Writeup 8](assignments/) |
