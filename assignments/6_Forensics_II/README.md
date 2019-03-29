@@ -2,7 +2,7 @@
 
 ## Assignment details
 
-This assignment has two parts. It is due by 3/5/19 at 11:59PM.
+This assignment has two parts. It is due by 4/5/19 at 11:59PM.
 
 **There will be a late penalty of 5% per day late!**
 
@@ -22,7 +22,7 @@ The network engineer has saved all network traffic from the intrusion. Can you a
 
 4. What port are they using to steal files on the server?
 
-5. Which file did they steal? What kind of file is it? Provide all metadata on the file. Specifically, 
+5. Which file did they steal? What kind of file is it? Provide all metadata on the file. Specifically,
 
     a) What kind of file is it?
 
@@ -55,7 +55,7 @@ you'd like to develop in Python.
     1. When was `greetz.fpff` generated?
     2. Who authored `greetz.fpff`?
     4. List each section, giving us the data in it *and* its type.
-    5. Report *at least* one flag hidden in `greetz.fpff`. Any other flag found will count as bonus points towards the *competition* portion of the syllabus. 
+    5. Report *at least* one flag hidden in `greetz.fpff`. Any other flag found will count as bonus points towards the *competition* portion of the syllabus.
 
 #### Important notes
 
