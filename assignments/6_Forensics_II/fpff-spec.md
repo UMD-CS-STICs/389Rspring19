@@ -125,41 +125,45 @@ The `stype` field of a section indicates how to handle the section's value.
 
 There are currently a fixed set of valid types:
 
-* `SECTION_PNG` (`0x1`) -- Embedded PNG image.
-* `SECTION_DWORDS` (`0x2`) -- Array of dwords.
-* `SECTION_UTF8` (`0x3`) -- [UTF-8-encoded](https://en.wikipedia.org/wiki/UTF-8) text.
-* `SECTION_DOUBLES` (`0x4`) -- Array of doubles.
-* `SECTION_WORDS` (`0x5`) -- Array of words.
+* `SECTION_ASCII` (`0x1`)
+* `SECTION_UTF8` (`0x2`) -- [UTF-8-encoded](https://en.wikipedia.org/wiki/UTF-8) text.
+* `SECTION_WORDS` (`0x3`) -- Array of words.
+* `SECTION_DWORDS` (`0x4`) -- Array of dwords.
+* `SECTION_DOUBLES` (`0x5`) -- Array of doubles.
 * `SECTION_COORD` (`0x6`) -- (Latitude, longitude) tuple of doubles.
 * `SECTION_REFERENCE` (`0x7`) -- The index of another section.
-* `SECTION_ASCII` (`0x9`)
+* `SECTION_PNG` (`0x8`) -- Embedded PNG image.
+* `SECTION_GIF87` (`0x9`) -- Embedded GIF87.
+* `SECTION_GIF89` (`0xA`) -- Embedded GIF89.
 
 
 A section's type **must** be one of the above.
 
-##### `SECTION_PNG`
 
-Sections of type `SECTION_PNG` **must** contain `slen` bytes of [PNG-encoded](https://en.wikipedia.org/wiki/Portable_Network_Graphics) data.
 
-As a space-saving measure, a proper FPFF emitter **must** remove the [PNG's file signature](http://www.libpng.org/pub/png/spec/1.2/PNG-Rationale.html#R.PNG-file-signature). Thus,
-a proper FPFF parser **must** re-add the signature to produce the actual PNG.
+##### `SECTION_ASCII`
+
+Sections of type `SECTION_ASCII` **must** contain `slen` bytes of ASCII-encoded text.
+
+##### `SECTION_UTF8`
+
+Sections of type `SECTION_UTF8` **must** contain `slen` bytes of UTF-8-encoded text.
+
+##### `SECTION_WORDS`
+
+Sections of type `SECTION_WORDS` **must** contain `slen / 4` words.
 
 
 ##### `SECTION_DWORDS`
 
 Sections of type `SECTION_DWORDS` **must** contain `slen / 8` dwords.
 
-##### `SECTION_UTF8`
-
-Sections of type `SECTION_UTF8` **must** contain `slen` bytes of UTF-8-encoded text.
 
 ##### `SECTION_DOUBLES`
 
 Sections of type `SECTION_DOUBLES` **must** contain `slen / 8` doubles.
 
-##### `SECTION_WORDS`
 
-Sections of type `SECTION_WORDS` **must** contain `slen / 4` words.
 
 ##### `SECTION_COORD`
 
@@ -178,9 +182,24 @@ Sections of type `SECTION_REFERENCE` **must** contain one word.
 The `svalue` of a `SECTION_REFERENCE` section **must** be a valid index in
 the range `[0, nsects - 1]`.
 
-##### `SECTION_ASCII`
+##### `SECTION_PNG`
 
-Sections of type `SECTION_ASCII` **must** contain `slen` bytes of ASCII-encoded text.
+Sections of type `SECTION_PNG` **must** contain `slen` bytes of [PNG-encoded](https://en.wikipedia.org/wiki/Portable_Network_Graphics) data.
+
+As a space-saving measure, a proper FPFF emitter **must** remove the [PNG's file signature](http://www.libpng.org/pub/png/spec/1.2/PNG-Rationale.html#R.PNG-file-signature). Thus,
+a proper FPFF parser **must** re-add the signature to produce the actual PNG.
+
+##### `SECTION_GIF87`
+Sections of type `SECTION_GIF87` **must** contain `slen` bytes of [GIF87-encoded](https://www.w3.org/Graphics/GIF/spec-gif87.txt) data.
+
+As a space-saving measure, a proper FPFF emitter **must** remove the GIF's file signature. Thus,
+a proper FPFF parser **must** re-add the signature to produce the actual PNG.
+
+##### `SECTION_GIF89`
+Sections of type `SECTION_GIF89` **must** contain `slen` bytes of GIF89-encoded data.
+
+As a space-saving measure, a proper FPFF emitter **must** remove the GIF's file signature. Thus,
+a proper FPFF parser **must** re-add the signature to produce the actual PNG.
 
 
 #### Section length

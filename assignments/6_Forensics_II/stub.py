@@ -10,7 +10,7 @@ def bork(msg):
 
 
 # Some constants. You shouldn't need to change these.
-MAGIC = 0xdeadbeef
+MAGIC = 0x8BADFOOD
 VERSION = 1
 
 if len(sys.argv) < 2:
