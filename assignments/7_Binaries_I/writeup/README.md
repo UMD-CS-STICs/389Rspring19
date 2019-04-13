@@ -1,12 +1,12 @@
 # Writeup 7 - Binaries I
 
-Name: *PUT YOUR NAME HERE*
-Section: *PUT YOUR SECTION NUMBER HERE*
+Name: Alex Bloch
+Section: 0101
 
 I pledge on my honor that I have not given or received any unauthorized
 assistance on this assignment or examination.
 
-Digital acknowledgement: *PUT YOUR NAME HERE*
+Digital acknowledgement: Alex Bloch
 
 ## Assignment Writeup
 
@@ -14,9 +14,34 @@ Digital acknowledgement: *PUT YOUR NAME HERE*
 
 *Put your code here as well as in main.c*
 ```c
-printf("your code here");
+#include <stdio.h>
+
+int main()
+{
+
+    unsigned char eight =0x1ceb00da;
+    unsigned char four = 0xfeedface;
+    printf("a = %d\n", four);
+    printf("b = %d\n", eight);
+    
+    eight ^= four;
+    four ^= eight;
+    eight ^= four;
+    
+    printf("a = %d\n", four);
+    printf("b = %d\n", eight);
+    
+    
+    return 0;
+}
 ```
 
 ### Part 2 (10 Pts)
 
-*Replace this text with your repsonse to our prompt for part 2!*
+Prints: 
+a = 206                                                                                                               
+b = 218                                                                                                               
+a = 218                                                                                                               
+a = 206     
+
+Behind the scences, it swaps the a value and the b value 
