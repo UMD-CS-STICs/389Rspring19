@@ -10,6 +10,8 @@ Digital acknowledgement: *PUT YOUR NAME HERE*
 
 ## Assignment Writeup
 
-### Part 1 (100 Pts)
+### Part 1 (70 Pts)
+
+### Part 2 (30 Pts)
 
 *Your reflection goes here*
