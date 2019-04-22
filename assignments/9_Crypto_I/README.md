@@ -22,7 +22,7 @@ and prints out the inputs corresponding to each hash. Write your code in
 With your code from Part 1, now use it against a live server spitting out random
 hashes that need to be cracked! The hashes will be the same format as in Part 1,
 but will be randomized. You only need to correctly crack 3 hashes in succession
-in order to get the flag. The program is available via `nc 134.209.128.56 1337`.
+in order to get the flag. The program is available via `nc 134.209.128.58 1337`.
 Write your code in `writeup/server_crack.py`.
 
 #### Important notes
