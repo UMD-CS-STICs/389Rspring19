@@ -9,7 +9,7 @@ def crack():
         for c in character:
             p = p.strip()
             hsh = hashlib.sha256(c.encode()+p.encode()).hexdigest()
-            if hsh == "be1c7d451a8bb07c59e13c86efc26f95d78c7ca761c66d9b397e13055c7feb33":
+            if hsh in hashes:
                 print("pass: "+c+p)
 
 
