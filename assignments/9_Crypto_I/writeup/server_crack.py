@@ -12,7 +12,7 @@ def server_crack():
     server_ip = 'put_your_ip_here'
     server_port = 00000
 
-    s = socket.socket(socket.AF_INET, socket.STREAM)
+    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     s.connect((server_ip, server_port))
     data = s.recv(1024)
     # parse data
