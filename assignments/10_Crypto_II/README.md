@@ -39,11 +39,11 @@ Answer these questions:
 
 #### Important notes
 
-Make sure to submit **all** of the code you write!
+Make sure to submit **all** of the code you write, if any!
 
 ### Scoring
 
-Your writeup folder should include
+Your writeup **folder** should include
 
 * original.bmp
 * ecb.bmp
