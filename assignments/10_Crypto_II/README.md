@@ -9,7 +9,7 @@ This assignment has two parts. It is due by 5/3/19 at 11:59PM.
 ### Part 1 (70 Pts)
 
 You stumbled upon a [GPG key](key.asc), and an encrypted file called
-[`message.txt.asc`](message.txt.asc)
+[`message.txt.gpg`](message.txt.gpg)
 
 Your task is to use this key to decrypt the file, and then follow the directions
 written inside the file. You *must* use the command line tools `gpg` and
