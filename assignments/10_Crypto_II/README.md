@@ -28,7 +28,7 @@ Next, encrypt this file with AES-128 encryption in CBC mode with this command:
 Encrypt the image with the AES128 algorithm in ECB mode with the `openssl`
 command line tool, and name it `ecb.bmp`. Next, encrypt the image with the
 AES128 algorithm in the same way but in CBC mode, and call it `cbc.bmp`. Run
-[this script](writeup/fix.sh) in order to patch the headers of both files so
+[this script](fix.sh) in order to patch the headers of both files so
 they may be viewed as images, then embed both pictures in your writeup.
 
 Answer these questions:
