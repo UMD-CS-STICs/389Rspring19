@@ -94,7 +94,7 @@ Assignments may be submitted up to 3 days late for a 10%/day penalty.
 | 10 (4/5) | [Binaries I](lectures/) | [Writeup 9](assignments/7_Binaries_I) |
 | 11 (4/12) | [Binaries II](lectures/) | [Writeup 10](assignments/8_Binaries_II) |
 | 12 (4/19) | [Cryptography I](lectures/) | [Writeup 10](assignments/9_Crypto_I) |
-| 13 (4/26) | [Cryptography II](lectures/) | [Writeup 11](assignments/) |
+| 13 (4/26) | [Cryptography II](lectures/) | [Writeup 11](assignments/10_Crypto_II) |
 | 14 (5/3) | [Web](lectures/) | [Writeup 12](assignments/) |
 | 16 (5/10) | [Wrap-up](lectures/) | Final hack. |
 
