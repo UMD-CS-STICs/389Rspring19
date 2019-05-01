@@ -91,9 +91,9 @@ Assignments may be submitted up to 3 days late for a 10%/day penalty.
 | 7 (3/15) | Midterm | |
 | 9 (3/22) | Spring Break | |
 | 10 (3/29) | [Forensics II](https://github.com/UMD-CS-STICs/389Rspring19/blob/master/lectures/6_Forensics_II.pdf) | [Writeup 6](assignments/6_Forensics_II) |
-| 10 (4/5) | [Binaries I](lectures/) | [Writeup 9](assignments/) |
-| 11 (4/12) | [Binaries II](lectures/) | [Writeup 10](assignments/) |
-| 12 (4/19) | [Cryptography I](lectures/) | [Writeup 10](assignments/) |
+| 10 (4/5) | [Binaries I](lectures/) | [Writeup 9](assignments/7_Binaries_I) |
+| 11 (4/12) | [Binaries II](lectures/) | [Writeup 10](assignments/8_Binaries_II) |
+| 12 (4/19) | [Cryptography I](lectures/) | [Writeup 10](assignments/9_Crypto_I) |
 | 13 (4/26) | [Cryptography II](lectures/) | [Writeup 11](assignments/) |
 | 14 (5/3) | [Web](lectures/) | [Writeup 12](assignments/) |
 | 16 (5/10) | [Wrap-up](lectures/) | Final hack. |
