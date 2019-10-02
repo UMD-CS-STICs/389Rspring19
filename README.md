@@ -116,7 +116,7 @@ Michael Reininger - michael@csec.umiacs.umd.edu
 
 Wesley Weidenhamer - wesley@csec.umiacs.umd.edu
 
-Joshua Fleming - president@csec.umiacs.umd.edu
+Joshua Fleming - jsfleming@pm.me
 
 Mike Bailey - misker@protonmail.com
 
