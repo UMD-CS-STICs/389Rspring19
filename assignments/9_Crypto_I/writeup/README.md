@@ -1,12 +1,12 @@
 # Crypto I Writeup
 
-Name: *PUT YOUR NAME HERE*
-Section: *PUT YOUR SECTION NUMBER HERE*
+Name: Alex Bloch
+Section: 0101
 
 I pledge on my honor that I have not given or received any unauthorized
 assistance on this assignment or examination.
 
-Digital acknowledgement: *PUT YOUR NAME HERE*
+Digital acknowledgement: Alex Bloch
 
 ## Assignment Writeup
 
@@ -14,4 +14,4 @@ Digital acknowledgement: *PUT YOUR NAME HERE*
 
 ### Part 2 (30 Pts)
 
-*Your reflection goes here*
+The description for this project is super unclear and there's not much in the notes about how to do it. I don't know if my part2 works or not, but like I have no idea why and no idea how to debug it since the slides give me nothing to go on.

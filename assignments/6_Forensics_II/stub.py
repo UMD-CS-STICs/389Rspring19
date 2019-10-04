@@ -2,7 +2,7 @@
 
 import sys
 import struct
-
+import time
 
 # You can use this method to exit on failure conditions.
 def bork(msg):
@@ -40,3 +40,22 @@ print("VERSION: %d" % int(version))
 # the rest of the header and the actual FPFF body. Good luck!
 
 print("-------  BODY  -------")
+offset = 4
+
+version, timestamp = struct.unpack("<LL", data[4:(offset+8)])
+offset +=8
+author, a =  struct.unpack("<LL", data[offset:(offset+8)])
+offset +=4
+d, count = struct.unpack("<LL", data[offset:(offset+8)])
+offset+=8
+
+print("tim: %s" % hex(timestamp))
+print(str(author))
+print(count)
+for i in range(5):
+    t, s = struct.unpack("<LL", data[offset:(offset+8)])
+    offset+=8
+    print("section")
+    print(hex(t))
+    print("data")
+    print(hex(s))
